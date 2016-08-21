@@ -1,0 +1,16 @@
+.col-md-12.\34 04 {
+    padding-right: 0;
+    padding-left: 0;}
+
+.flexible {
+    width: 100%;}
+
+h3{position: absolute;
+z-index: 1000;
+width: 100%;
+top: 55rem;
+letter-spacing: -0.4;
+color: white;
+font-size: 15rem;
+font-family: "Roboto";
+font-weight: bold;}

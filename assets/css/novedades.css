@@ -1,0 +1,99 @@
+
+/*--HOME--*/
+p{text-decoration: none;font-family: "Roboto";font-weight: normal;letter-spacing: 0.1rem;}
+
+h1{text-align: center;width: 60%;display: inline-block;
+margin-top: 20%;font-family: "Roboto";
+font-size: 8rem;
+font-weight: 400;
+line-height: 1.26;
+letter-spacing: -0.6px;color: white;}
+
+h2{ 
+  font-family: "Roboto";
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 1.31;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #999;}
+
+
+.nav{z-index: 1;text-align: center;}
+.container.nav{text-align: center;}
+
+.container.fluid{height: 12rem;padding-bottom: 2rem;}
+.col-md-15{height: 12rem;padding-bottom: 2rem;background-color: #e73c33;box-shadow: 0 0px 1.5px 0 rgba(0, 0, 0, 0.5);}
+.col-md-15:hover{
+  border-bottom: solid 6px #ffffff;}
+.col-md-12{background-color: #e73c33;padding-left: 0;padding-right: 0;}
+#logo {width: 31%;padding-top: 2rem;margin-left: 25%;padding-bottom: 4rem;}
+.link{text-decoration: none;
+color: white;display: inline-block;
+font-size: 20px;float: right;
+margin-left: 5rem;margin-right: 3rem;padding-top: 5rem;}
+.link:hover{text-decoration: none;color: grey;}
+.container-fluid.text-center{padding-right: 0;padding-left: 0;}
+
+#sectiondos{margin-top: 10%;}
+
+.redes{height:230px;background-color: #e73c33;margin-top: 20%;}
+.col-md-6.footer{font-size: 1.5rem;color: white;font-family: "Roboto";font-weight: normal;letter-spacing: -0.2px;text-align: center;padding-top: 7.5%;width: 100%;}
+
+.col-md-6 i{color: white;}
+.contenedor-redes{float: left;}
+.col-md-6.footer i{font-size: 3.5rem;margin-bottom: 2rem;letter-spacing: 1rem;}
+.row{margin-left:0;margin-right:0;}
+
+.row{margin-left: 0;margin-right: 0;}
+.container.fluid{padding-left: 0;padding-right: 0;}
+
+#nvico{padding: 4rem;}
+#woman{margin-right: 2rem;}
+.red{color: #e73c33}
+.corazon{margin-left: 1rem;}
+.novedades{margin-top: 3rem;}
+
+/*--FINHOME--*/
+
+/*--bootstrap5columnas--*/
+    .col-xs-15,
+    .col-sm-15,
+    .col-md-15,
+    .col-lg-15
+    {
+      position: relative;
+      min-height: 1px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    .col-xs-15
+    {
+      width: 20%;
+      float: left;
+    }
+    @media (min-width: 768px)
+    {
+      .col-sm-15
+      {
+        width: 20%;
+        float: left;
+      }
+    }
+    @media (min-width: 992px)
+    {
+      .col-md-15
+      {
+        width: 20%;
+        float: left;
+      }
+    }
+    @media (min-width: 1200px)
+    {
+      .col-lg-15
+      {
+        width: 20%;
+        float: left;
+      }
+    }
+/*--bootstrap5columnas--*/

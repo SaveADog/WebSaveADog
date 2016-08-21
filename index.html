@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SaveADog</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="icon" 
+      type="image/ico" 
+      href="assets/imagenes/favicon.ico">
+</head>
+<body>
+	<!--CODIFO JS DE BOOTSTRAP-->
+	    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.js"></script>
+<!--HEADER-->
+<div class="nav" class="container-fluid text-center">
+    
+	<div class="row">
+	<div class="col-md-12">
+			<a href="index.html"><img id="logo" src="assets/imagenes/isp.svg"></a>
+	
+			<a class="link" href="iniciarsesion.html"><p>Iniciar sesión</p></a>
+			<a class="link" href="registrate.html"><p>Regístrate</p></a>
+	</div>
+<!--FINHEADER-->
+<!--SECTION1-->
+<div class="zind" class="container fondo">
+	<div class="row">
+		<div class="col-md-6-offset-6">
+<h1>Hacemos de intermediario</br>
+Elige tu mascota</br>
+Y Adopta!</h1>
+
+<p><button type="button" class="btn btn-primary btn-lg">Descargar</button></p>
+
+
+		</div>
+	</div>
+</div>
+	<!--<img id="dog" src="assets/imagenes/fondo.png" img="responsive">-->
+
+
+</div>
+	  
+</div>
+<!--FINSECTION1-->
+<!--SECTION2-->
+<div id="sectiondos" class="container text-center">
+	<div class="row">
+		<div class="col-md-6 nexus">
+			<img class="moviles" src="assets/imagenes/nexus.png">
+		</div>
+		<div class="col-md-6 iphone">
+			<img class="moviles" src="assets/imagenes/iphone.png">
+	    </div>
+    </div>
+</div>
+<div class="container text-center">
+	<div class="row">
+		<div class="col-md-3 appstore">
+
+        <img class="appstore" src="assets/imagenes/appstore.png" >
+		</div>
+        <div class="col-md-3 playstore">
+        
+		<img class="playstore" src="assets/imagenes/playstore.png">
+
+
+        </div>
+	</div>
+</div>		
+
+<!--FINSECTION2-->
+<!--FOOOTER-->
+<div class="redes" class="container-fluid text-center">
+<div class="row">
+
+	<div class="col-md-6 footer">
+
+		<a href="https://twitter.com/Saveadog_es" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+	    <a href="https://www.facebook.com/saveadoges" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+
+	<p>2016 SaveADog. Todos los derechos reservados.</p>
+
+	</div>
+
+</div>	
+</div>
+</div>
+
+<!--//BLOQUE COOKIES-->
+<div style="display: block;" id="barraaceptacion">
+    <div class="inner">
+        Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real 
+        Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.
+        <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> | 
+        <a href="http://politicadecookies.com" target="_blank" class="info">Más información</a>
+    </div>
+</div>
+ 
+<script>
+function getCookie(c_name){
+    var c_value = document.cookie;
+    var c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1){
+        c_start = c_value.indexOf(c_name + "=");
+    }
+    if (c_start == -1){
+        c_value = null;
+    }else{
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1){
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start,c_end));
+    }
+    return c_value;
+}
+ 
+function setCookie(c_name,value,exdays){
+    var exdate=new Date();
+    exdate.setDate(exdate.getDate() + exdays);
+    var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+    document.cookie=c_name + "=" + c_value;
+}
+ 
+if(getCookie('tiendaaviso')!="1"){
+    document.getElementById("barraaceptacion").style.display="block";
+}
+function PonerCookie(){
+    setCookie('tiendaaviso','1',365);
+    document.getElementById("barraaceptacion").style.display="none";
+}
+</script>
+<!--//FIN BLOQUE COOKIES-->
+<!--FINFOOTER-->
+</body>
+
+</html>
+
+
